@@ -7,7 +7,7 @@ public class Commercant extends Humain {
 	}
 
 	public int seFaireExtorquer() {
-		//Solution 1 avec getter solution 2 changer visibilité
+		//Solution 1 avec getter/setter solution 2 changer visibilité
 		int argent = this.argent;
 		this.perdreArgent(argent);
 		this.parler("J'ai tout perdu! Le monde est trop injuste...");
