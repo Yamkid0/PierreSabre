@@ -14,7 +14,7 @@ public class Humain {
 		this.argent = argent;
 	}
 
-	private void parler(String texte) {
+	protected void parler(String texte) {
 		System.out.println("« " + texte + "»");
 	}
 	
