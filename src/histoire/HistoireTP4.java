@@ -34,6 +34,7 @@ public class HistoireTP4 {
 		System.out.println("\n\n");
 		
 		roro.provoquer(yaku);
+		
 	}
 
 }

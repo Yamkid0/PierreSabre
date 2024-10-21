@@ -5,7 +5,7 @@ public class Humain {
 	
 	private String boissonFavorite;
 	
-	private int argent;
+	protected int argent;
 	
 	
 	public Humain(String nom, String boissonFavorite, int argent) {
@@ -20,10 +20,6 @@ public class Humain {
 	
 	public String getNom() {
 		return nom;
-	}
-
-	public int getArgent() {
-		return argent;
 	}
 
 	public void direBonjour() {
