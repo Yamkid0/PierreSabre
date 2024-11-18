@@ -54,7 +54,7 @@ public class Humain {
 	
 	public void listerConnaissance() {
 		StringBuilder names = new StringBuilder();
-		System.out.println("NB co " + nbConnaissance);
+		//System.out.println("NB co " + nbConnaissance);
 		for(int i = 0; i < nbConnaissance; i++) {
 			names.append(this.memoire[i].getNom() + ", ") ;
 		}
