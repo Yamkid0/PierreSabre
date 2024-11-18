@@ -1,6 +1,10 @@
 package personnages;
 
 public class Humain {
+	public int getArgent() {
+		return argent;
+	}
+
 	private String nom;
 	
 	private String boissonFavorite;
