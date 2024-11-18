@@ -15,7 +15,7 @@ public class Humain {
 	
 	protected Humain[] memoire = new Humain[NB_MAX_CONNAISSANCE];
 	
-	private static final int NB_MAX_CONNAISSANCE = 30;
+	protected static final int NB_MAX_CONNAISSANCE = 30;
 	
 	public Humain(String nom, String boissonFavorite, int argent) {
 		this.nom = nom;
@@ -70,7 +70,7 @@ public class Humain {
 		this.memoriser(humain);
 	}
 	
-	private void memoriser(Humain humain) {
+	protected void memoriser(Humain humain) {
 		if(nbConnaissance < NB_MAX_CONNAISSANCE) {
 			this.memoire[nbConnaissance] = humain;
 			nbConnaissance++;
