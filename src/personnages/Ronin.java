@@ -20,7 +20,7 @@ public class Ronin extends Humain {
 		if(forceRonin >= adversaire.getReputation()) {
 			//Ronin gagne
 			this.gagnerArgent(adversaire.argent);
-			this.parler("Je t’ai eu petit yakusa!");
+			this.parler("Je t’ai eu petit yakuza!");
 			adversaire.perdre();
 		} else {
 			//Yakuza gagne
